@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Formatter</title>
+</head>
+<body>
+    <h1 class="title">Text Formatter</h1>
+
+    <p class="description">Write the text below and click on the desired option!</p>
+
+    <p class="counter">Your text has <span class="characters">0</span> characters and <span class="words">0</span> words</p>
+
+    <main>
+        <textarea name="text" id="textarea" cols="30" rows="10" oninput="countText()" placeholder="Write here..."></textarea>
+    </main>
+    
+    <div class="buttons">
+        <button class="toUppercase button" onclick="uppercase()">Uppercase</button>
+        <button class="toLowercase button" onclick="lowercase()">Lowercase</button>
+    </div>
+
+    <footer>Developed by João Pedro Moreno</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

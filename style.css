@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #1D1E26;
+}
+
+.title {
+    text-align: center;
+    padding-top: 3%;
+    color: #3866F2;
+    font-weight: 400;
+    font-size: clamp(30px, 40px, 50px);
+}
+
+.description {
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.counter {
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textarea {
+    width: 60%;
+    height: 350px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+    padding: 1%;
+    font-size: 15px;
+    background-color: #252631;
+    color: white;
+    margin-top: 5%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    margin-top: 3%;
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background-color: #3866F2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2C51BF;
+    color: white;
+}
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.1;
+}
